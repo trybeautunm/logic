@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "logic",
+  "version": "${version}",
+
+  "name": "Logic",
+  "description": "A Minecraft Fabric mod for 1.21.1.",
+  "authors": [
+    "trybeautunm"
+  ],
+  "contact": {
+    "homepage": "https://github.com/trybeautunm/logic",
+    "sources": "https://github.com/trybeautunm/logic"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/logic/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.trybeautunm.logic.LogicMod"
+    ]
+  },
+  "mixins": [
+    "logic.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
