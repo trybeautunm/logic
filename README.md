@@ -1,6 +1,6 @@
 # Logic
 
-A Minecraft Fabric mod for 1.21.1.
+A Minecraft Fabric mod for 1.21.11.
 
 ## Setup
 For setup instructions please see the [fabric wiki](https://fabricmc.net/wiki/tutorial:setup).
